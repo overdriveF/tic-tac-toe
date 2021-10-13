@@ -33,7 +33,6 @@ class Game{
         console.log(this.p2);
         score_1.textContent = this.p1.score;
         score_2.textContent = this.p2.score;
-
         // let event_player_1 = this.p1;
         // let event_player_2 = this.p2;
         let game = this;
