@@ -1,7 +1,6 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
-    color: #fff;
 }
 
 section{
@@ -24,6 +23,7 @@ section > h1{
 }
 
 .player_score{
+    color: #fff;
     font-size: 2em;
     height: 60px;
     grid-column: 1 / span 3;
@@ -80,7 +80,7 @@ section > h1{
     font-size: 1.5em;
     grid-column: 1 / span 3;
     height: 60px;
-    background-color: blueviolet;
+    background-color: crimson;
     transition: 0.4s opacity;
     cursor: pointer;
     display: flex;
